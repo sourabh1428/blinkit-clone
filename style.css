@@ -21,6 +21,12 @@
 .my-list{
     white-space: nowrap;    
 }
+.my-item:hover{
+    
+    transform: scale(1.1);
+    transition: 0.2s ease transform;
+}
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -173,16 +179,14 @@ td{
 
 @media screen and (max-width: 768px) {
     .custom-fc{
-        display: none;
+        display: none !important;
     }
-    .nv-logo-br{
-       margin-left: auto;
-       margin-right: auto;
-
-
-    }
+    
     .blah-nav-blah{
         flex-direction: column !important;
+    }
+    .custom-ul-nav{
+        display: none   !important;
     }
 
     nav,.row-2,.row-1{
