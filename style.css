@@ -172,6 +172,19 @@ td{
 
 
 @media screen and (max-width: 768px) {
+    .custom-fc{
+        display: none;
+    }
+    .nv-logo-br{
+       margin-left: auto;
+       margin-right: auto;
+
+
+    }
+    .blah-nav-blah{
+        flex-direction: column !important;
+    }
+
     nav,.row-2,.row-1{
         flex-direction: column !important;
     }
@@ -182,4 +195,11 @@ td{
   .customm-sec1m{
         margin-top: 20px;
     }
+}
+
+
+.custom-cart-btn
+{
+    width: 300px;
+
 }
